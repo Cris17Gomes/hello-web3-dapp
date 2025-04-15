@@ -131,7 +131,7 @@ async function updateMessage() {
 }
 
 // Carrega a mensagem inicial quando a página carrega
-window.onload = loadMessage;
+//window.onload = loadMessage;
 
 // Event listener para o botão de atualizar
 document.getElementById('update-button').addEventListener('click', updateMessage);
